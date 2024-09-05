@@ -8,6 +8,7 @@ const app = express();
 const PORT = 3001;
 
 app.use(bodyParser.json());
+app.use(cors());
 
 // app.use('/UserAuth', UserAuth);
 // app.use('/UserReview', UserReview);
